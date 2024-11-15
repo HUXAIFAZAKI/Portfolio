@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  transition: all 0.5s ease-out;
+}
+
+::-webkit-scrollbar {
+  scrollbar-width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #242424;
+  border-radius: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 15vh;
+  cursor: none;
+  user-select: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #121212;
+  color: #edededfd;
+  overflow-x: hidden;
+}
+
+section {
+  /* border: 1px solid #ffffff; */
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+a {
+  color: #808080;
+}
+
+a:hover {
+  transition: all 0.25s ease;
+  color: #ffffff;
+  filter: drop-shadow(0 0 10px #ffffff75);
+  cursor: none;
+}
+
+.huxaifa:hover {
+  animation: rainbow-shadow 3s infinite;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 10px 0 #ffffff !important;
+}
+
+#cursor-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+#cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ffffff;
+}
+
+#cursor-dot,
+#cursor-outline {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@keyframes rainbow-shadow {
+  0% {
+    filter: drop-shadow(0px 0px 2.5px #ff0000);
+  }
+  20% {
+    filter: drop-shadow(0px 0px 2.5px #ff7f00);
+  }
+  40% {
+    filter: drop-shadow(0px 0px 2.5px #ffff00);
+  }
+  60% {
+    filter: drop-shadow(0px 0px 2.5px #00ff00);
+  }
+  80% {
+    filter: drop-shadow(0px 0px 2.5px #0000ff);
+  }
+  100% {
+    filter: drop-shadow(0px 0px 2.5px #8b00ff);
+  }
+}
