@@ -111,3 +111,37 @@ a:hover {
     display: none;
   }
 }
+
+@media (max-width: 450px) {
+  .huxaifa {
+    font-size: 2rem;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav div {
+    gap: 1rem !important;
+  }
+
+  section {
+    height: 100vh;
+  }
+  main section {
+    text-align: center;
+    padding: 10%;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  main h1 {
+    font-size: 2.5rem !important;
+  }
+  main h3 {
+    font-size: 1.3rem !important;
+  }
+  main p {
+    font-size: 1.15rem !important;
+  }
+  /* .skills-card {
+    width: 80vw;
+  } */
+}
