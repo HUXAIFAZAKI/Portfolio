@@ -3,7 +3,9 @@ import React from "react";
 function Skills() {
   return (
     <section className="h-screen w-screen flex flex-col justify-center items-center">
-      <h1 className="text-[4rem] leading-[4rem] font-bold mb-16">SKILLS</h1>
+      <h1 className="skills-title text-[4rem] leading-[4rem] font-bold mb-16">
+        SKILLS
+      </h1>
       <div className="flex flex-col flex-wrap justify-center items-center gap-16">
         <div className="skills-card flex flex-wrap flex-row justify-center items-center gap-16 border-2 border-white rounded-lg p-10">
           <h2 className="text-2xl font-bold">WEB DEVELOPMENT</h2>
