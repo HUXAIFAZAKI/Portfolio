@@ -152,9 +152,14 @@ a:hover {
     font-size: 2rem !important;
   }
   .skills-card {
+    padding: 1rem;
+    gap: 1rem;
     width: 85vw;
-    height: 850px;
+    height: 500px;
     margin-bottom: 25vh;
+  }
+  .project-card {
+    width: 85vw;
   }
   footer {
     border: none !important;

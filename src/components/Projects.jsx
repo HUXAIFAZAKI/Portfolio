@@ -16,10 +16,10 @@ function Projects() {
             Project 3
           </div>
           <div className="project-card text-2xl font-bold w-[400px] h-[200px] border-2 border-white flex justify-center items-center">
-            Project 3
+            Project 4
           </div>
           <div className="project-card text-2xl font-bold w-[400px] h-[200px] border-2 border-white flex justify-center items-center">
-            Project 3
+            Project 5
           </div>
         </div>
       </div>
