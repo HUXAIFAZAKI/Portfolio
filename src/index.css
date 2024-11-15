@@ -101,3 +101,13 @@ a:hover {
     filter: drop-shadow(0px 0px 2.5px #8b00ff);
   }
 }
+
+@media (max-width: 768px) {
+  html {
+    cursor: default;
+  }
+  #cursor-outline,
+  #cursor-dot {
+    display: none;
+  }
+}
